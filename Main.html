@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" type="image/gif/png" href="Assets/Logo.png" />
+    <title>KiloWattHours</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar-KWH">
+      <div class="container">
+        <a class="NamaNav linkNav navbar-brand fs-3 fw-bold" href="#">KiloWattHours</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="logoNavbar bi bi-three-dots"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="linkNav nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="linkNav nav-link" href="#Produk">Our Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="linkNav nav-link" href="#About">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="linkNav nav-link" href="#Contact">Contact & Social Media</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="Home">
+        <div class="Home row my-4">
+          <div class="col-12 col-md-6">
+            <img src="Assets/Logo.png" alt="Logo KWH" class="Image mx-auto d-block" />
+          </div>
+          <div class="Teks col-12 col-md-6">
+            <h3 class="Kalimat fw-bold">Chiki Mix lezat & Minuman Kekinian dengan botol bohlam yang unik!</h3>
+            <h5 class="my-4">Penasaran? Mau Coba!? <a class="btnOurProduk btn mx-2 rounded-pill" href="#Produk">Lihat Produk</a></h5>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5" id="Produk">
+        <div class="Produk">
+          <h3 class="text-center fw-bold mb-5">Our Product</h3>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="Produk1">
+                <div class="OurProduk row mx-2">
+                  <div class="col">
+                    <img src="Assets/Logo.png" alt="GambarProduk1" class="ImageProduct d-flex mx-auto" />
+                  </div>
+                  <div class="ProductName col">
+                    <h5 class="fw-bold mb-2">Chiki Mix</h5>
+                    <h6 class="mb-3">Start from Rp. 25.000</h6>
+                    <button class="DetailBTN btn rounded-pill" data-bs-toggle="modal" data-bs-target="#Produk1">Detail</button>
+
+                    <div class="modal fade" id="Produk1" tabindex="-1" aria-labelledby="Produk1Label" aria-hidden="true">
+                      <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="Produk1Label">Chiki Mix</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body p-5">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-12"></div>
+                              <div class="col-lg-8 col-md-12">
+                                <h3 class="fw-bold">Chiki Mix</h3>
+                                <p>
+                                  Chiki mix merupakan salah satu snack yang sedang viral saat ini. Makanan ini memiliki cita rasa yang unik dari chiki yang dicampur dengan berbagai topping lezat, sehingga bisa dicampur sesuai keinginan
+                                  Anda.
+                                </p>
+                                <h6>Start from Rp. 15.000</h6>
+                                <div class="row mt-4">
+                                  <div class="col">
+                                    <h6 class="fw-bold">Pilihan Chiki</h6>
+                                    <ul>
+                                      <li>Chitato Lite Seaweed</li>
+                                      <li>Piattos BBQ</li>
+                                      <li>Qtela Original/BBQ</li>
+                                      <li>Maxcorn</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col">
+                                    <h6 class="fw-bold">Add On Topping</h6>
+                                    <ul>
+                                      <li>Nugget Ayam</li>
+                                      <li>Sosis Ayam</li>
+                                      <li>Saus Sambal</li>
+                                      <li>Saus Tomat</li>
+                                      <li>Saus Mayo</li>
+                                      <li>Saus Bolognese Sapi</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="Produk2">
+                <div class="OurProduk row mx-2">
+                  <div class="col">
+                    <img src="Assets/Logo.png" alt="GambarProduk2" class="ImageProduct d-flex mx-auto" />
+                  </div>
+                  <div class="ProductName col">
+                    <h5 class="fw-bold mb-2">Minuman Bohlam</h5>
+                    <h6 class="mb-3">Start from Rp. 5.000</h6>
+                    <button class="DetailBTN btn rounded-pill" data-bs-toggle="modal" data-bs-target="#Produk2">Detail</button>
+
+                    <div class="modal fade" id="Produk2" tabindex="-1" aria-labelledby="Produk2Label" aria-hidden="true">
+                      <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="Produk2Label">Minuman Bohlam</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body p-5">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-12"></div>
+                              <div class="col-lg-8 col-md-12">
+                                <h3 class="fw-bold">Minuman Bohlam</h3>
+                                <p>
+                                  Berbagai jenis minuman dengan kemasan ciri khas KiloWattHours yang dapat dipilih sesuai dengan keinginan anda. Dengan pilihan antara Thai Tea yang milky atau Lychee Yakult dan Lemon Soda yang menyegarkan.
+                                </p>
+                                <h6>Start from Rp. 10.000</h6>
+                                <h6 class="fw-bold mt-4">Pilihan Minuman</h6>
+                                <ul>
+                                  <li>Lychee Yakult</li>
+                                  <li>Lemon Soda</li>
+                                  <li>Thai Tea</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://forms.gle/L3svAUuPMJywYjmb7" class="BeliBTN btn BeliLink text-decoration-none mx-auto mt-4 rounded-pill" target="_blank"><i class="bi bi-bag mx-2"></i> Pesan Produk</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5" id="About">
+        <div class="About">
+          <h3 class="text-center fw-bold mb-5">About Us</h3>
+          <h6 class="text-center w-75 mx-auto">
+            KiloWattHours bergerak di industri F&B dengan konsep unik yang mengedepankan aspek interaktif, di mana KiloWattHours menawarkan self-custom snack kekinian yaitu Chiki Mix, serta berbagai pilihan minuman segar dengan kemasan unik
+            berbentuk bohlam yang mencerminkan nama dari usaha (KwH).
+          </h6>
+          <h6 class="ProdukAbout mx-auto my-4 p-4">
+            <ul>
+              <li><strong>Chiki Mix</strong> memungkinkan pelanggan meracik sendiri camilan favorit mereka sesuai selera dengan konsep yang ditawarkan.</li>
+              <br>
+              <li><strong>Minuman Bohlam</strong> dengan berbagai varian rasa seperti Thai Tea, Lychee Yakult, dan Lemon Soda yang menyegarkan dengan kemasan unik.</li>
+            </ul>
+          </h6>
+        </div>
+      </section>
+
+      <section class="my-5" id="Contact">
+        <div class="Contact">
+          <h3 class="text-center fw-bold mb-5">Contact & Social Media</h3>
+          <div class="row w-50 mx-auto">
+            <a href="https://www.instagram.com/killowatthrs?igsh=MWFwNGxteTZxeDl6YQ==" class="ContactSocialMedia2 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold" target="_blank"
+              ><i class="bi bi-instagram me-2"></i> Instagram</a
+            >
+            <a href="https://www.tiktok.com/@kilowatthours8?_t=ZS-8vXhh7a32Up&_r=1" class="ContactSocialMedia3 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold" target="_blank"
+              ><i class="bi bi-tiktok me-2"></i> Tiktok</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 mx-5">© 2025 | KiloWattHours</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

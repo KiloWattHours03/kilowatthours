@@ -1,0 +1,174 @@
+.logoNavbar {
+  color: white;
+}
+
+.navbar {
+  background-color: #af1116;
+}
+
+a.linkNav {
+  color: white;
+}
+
+a.linkNav:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.Image {
+  height: auto;
+  width: 300px;
+}
+
+.btnOurProduk:hover {
+  background-color: #af1116;
+  font-weight: bold;
+  color: white;
+  border: 2px #af1116 solid;
+}
+
+.btnOurProduk {
+  background-color: white;
+  width: 150px;
+  color: #af1116;
+  font-weight: bold;
+  border: 2px #af1116 solid;
+}
+
+.Teks {
+  margin: auto;
+  width: 50%;
+}
+
+.ContactSocialMedia1,
+.ContactSocialMedia2,
+.ContactSocialMedia3 {
+  height: 50px;
+  border-radius: 20px;
+  border: 3px #af1116 solid;
+  color: #af1116;
+  margin: auto;
+  width: 50%;
+}
+
+.ContactSocialMedia1:hover,
+.ContactSocialMedia2:hover,
+.ContactSocialMedia3:hover {
+  height: 50px;
+  border-radius: 20px;
+  border: 3px #af1116 solid;
+  background-color: #af1116;
+  color: white;
+  margin: auto;
+  width: 50%;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+h6.ProdukAbout {
+  background-color: #af1116;
+  border-radius: 15px;
+  color: white;
+  width: 70%;
+}
+
+.ImageProduct {
+  height: auto;
+  width: 200px;
+}
+
+.ProductName {
+  margin: auto;
+  width: 50%;
+}
+
+.OurProduk {
+  border: 3px #af1116 solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.DetailBTN,
+.BeliBTN {
+  border: 2.5px #af1116 solid;
+  font-weight: bold;
+  color: #af1116;
+}
+
+.BeliBTN{
+  width: 50%;
+}
+
+.BeliBTN{
+  color: #af1116;
+}
+
+
+.DetailBTN:hover,
+.BeliBTN:hover {
+  background-color: #af1116;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .ContactSocialMedia2{
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 980px) {
+  .DetailBTN {
+    border: 2.5px #af1116 solid;
+    font-weight: bold;
+    color: #af1116;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Teks {
+    text-align: center;
+  }
+  .Image {
+    height: auto;
+    width: 250px;
+  }
+  h3.Kalimat {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .btnPesan {
+    margin-top: 10px;
+  }
+  .ImageProduct {
+    height: auto;
+    width: 150px;
+  }
+  .OurProduk {
+    border: 3px #af1116 solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .DetailBTN{
+    border: 2.5px #af1116 solid;
+    font-weight: bold;
+    color: #af1116;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 574px) {
+  .NamaNav{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 993px) {
+  .btnOurProduk{
+    margin-top: 15px;
+  }
+}
