@@ -102,6 +102,13 @@ h6.ProdukAbout {
   color: white;
 }
 
+.bundlinglist{
+  border: 3px #af1116 solid;
+  border-radius: 15px;
+  background-color: #af1116;
+  color: white;
+}
+
 @media (max-width: 767px) {
   .ContactSocialMedia2{
     margin-bottom: 15px;
