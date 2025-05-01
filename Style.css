@@ -90,24 +90,13 @@ h6.ProdukAbout {
   padding: 10px;
 }
 
-.DetailBTN,
-.BeliBTN {
+.DetailBTN{
   border: 2.5px #af1116 solid;
   font-weight: bold;
   color: #af1116;
 }
 
-.BeliBTN{
-  width: 50%;
-}
-
-.BeliBTN{
-  color: #af1116;
-}
-
-
-.DetailBTN:hover,
-.BeliBTN:hover {
+.DetailBTN:hover{
   background-color: #af1116;
   font-weight: bold;
   color: white;
